@@ -1,0 +1,14 @@
+Source: gtk-theme-switch
+Section: x11
+Priority: optional
+Maintainer: Aaron Lehmann <aaronl@vitelus.com>
+Standards-Version: 3.1.1
+Build-Depends: libgtk1.2-dev, debhelper (>= 1.1.17)
+
+Package: gtk-theme-switch
+Architecture: any
+Depends: ${shlibs:Depends}, tar
+Description: Gtk+ theme switching utility
+ A Gtk+ theme switching utility that can be run from the console, and has an
+ optional GUI dock and theme preview. It also can install themes downloaded
+ from gtk.themes.org.

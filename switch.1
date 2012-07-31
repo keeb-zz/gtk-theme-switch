@@ -1,0 +1,50 @@
+.TH SWITCH 1
+
+.\" NAME should be all caps, SECTION should be 1-8, maybe w/ subsection
+.\" other parms are allowed: see man(7), man(1)
+.SH NAME
+gtk-theme-switch \- fast and easy tool for switching and installing GTK themes
+.SH COMMAND LINE ARGUMENTS
+.nf
+.BR "\-h[elp] " (display\ command-line\ argument\ reference)
+.BR "\-d[ock] " (open\ dock)
+.BR "" file\ (switch\ to\ theme\ (install\ if\ theme\ is\ a\ tarball))
+.BR "\-p[review]"\ file\ (preview\ a\ theme\ (install\ if\ file\ is\ a\ tarball))
+.BR "\-i[nstall]"\ theme.tar.gz\ (install\ a\ \.tar\.gz)
+.BR "\-f[ont]"\ fontstring\ (set\ GTK\'s\ main\ font\ to\ fontstring)
+.fi
+.PP
+Multiple command line arguments can be passed to the executable on the same
+invocation.
+.PP
+Passing no arguments will start
+.B gtk-theme-switch
+in dock-mode.
+.SH DESCRIPTION
+.B gtk-theme-switch
+is a Gtk+ theme switching utility that can be run from the console, and has an
+optional GUI dock and theme preview. It also can install themes downloaded
+from gtk.themes.org.
+.SH USAGE
+"file" represents any one of (looked for in the listed order):
+.IP 1.
+An absoulte or relative path to a GTK theme directory.
+.PP A directory is considered a theme directory if it contains a gtk/gtkrc file.
+.IP 2.
+A gzipped tar file which expands to a GTK theme directory as explained in 1).
+.IP 3.
+A GTK theme directory with the name passed located in ~/.themes.
+.IP 4.
+A GTK theme directory with the name passed located in the global "gtk_themedir"
+.PP
+If none of these files are located and found to be correct, the program will
+exit with an error.
+
+.SH SEE ALSO
+See the README file in the distribution for a command-line summary. This can also be obtained by running
+.B switch
+-help.
+.SH AUTHOR
+This program is copyright (c) 2000 by Maher Awamy <muhri@muhri.net> and Aaron Lehmann <aaronl@vitelus.com>.
+
+Comments and suggestions are welcome.

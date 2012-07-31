@@ -1,0 +1,12 @@
+___gtk-theme-switch___
+http://www.muhri.net/gthemeswitch.php3
+
+This program allows you to preview and switch GTK themes. gtk-theme-switch is
+designed to be usable and flexible from both the shell prompt and X-Windows
+display. Please see the manual page or run the switch executable with the
+-help option for information on the allowed command line options.
+
+Comments and suggestions are welcome:
+
+muhri@muhri.net
+aaronl@vitelus.com

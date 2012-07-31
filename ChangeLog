@@ -1,0 +1,23 @@
+2.0.0rc2
+--------
+
+- Changed binary name to switch2
+- Fixed switching in some cases.
+- Fixed user font selection.
+
+2.0.0rc1
+-----
+
+- Port to Gtk2.0.
+
+1.0.1
+-----
+
+- Fix for window resizing at startup.
+- Fix for 100%  cpu usage when previewing themes.
+
+
+1.0
+---
+
+Rewrote from Perl to C.

@@ -1,0 +1,32 @@
+gtk-theme-switch (1.0-1) unstable; urgency=medium
+  * Major new upstream release
+
+ -- Aaron Lehmann <aaronl@vitelus.com>  Tue, 31 Oct 2000 18:32:11 -0700
+
+gtk-theme-switch (0.4-4) unstable; urgency=low
+  * Use debhelper
+  * Depend on Gtk::Perl (libgtk-perl)
+
+ -- Aaron Lehmann <aaronl@vitelus.com>  Fri, 22 Sep 2000 16:29:36 -0700
+
+gtk-theme-switch (0.4-3) unstable; urgency=low
+  * make it actually work
+
+ -- Aaron Lehmann <aaronl@vitelus.com>  Mon, 18 Sep 2000 18:45:03 -0700
+
+gtk-theme-switch (0.4-2) unstable; urgency=low
+  * Make undocumented man pages work
+  * Depend on perl
+  * Fix first line of README
+
+ -- Aaron Lehmann <aaronl@vitelus.com>  Mon, 18 Sep 2000 17:28:58 -0700
+
+gtk-theme-switch (0.4-1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Aaron Lehmann <aaronl@vitelus.com>  Mon, 18 Sep 2000 16:53:50 -0700
+
+Local variables:
+mode: debian-changelog
+End:

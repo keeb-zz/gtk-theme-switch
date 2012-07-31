@@ -1,0 +1,3 @@
+- add -n/-nosignal option which prevents us from telling other apps to reread the .gtkrc
+- think about single, integrated preview
+- integrate grdb (optional). add a checkbox "Emulate theme on non-GTK applications" and write a comment to the gtkrc file when it is used. if the user tries to check this box and grdb is not in $PATH, complain with an error dialog and desleect it. this checkbox will be deselected by default, unless the comment acknowledging previous grdb use is found in an fgrep of ~/gtkrc

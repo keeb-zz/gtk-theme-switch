@@ -1,0 +1,2 @@
+?package(gtk-theme-switch):needs=X11 section=Apps/Tools\
+  title="gtk-theme-switch (dock mode)" command="/usr/bin/switch"
